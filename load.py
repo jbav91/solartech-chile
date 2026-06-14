@@ -21,7 +21,6 @@ def load_to_postgres(df, table_name):
     
     try:
         engine = create_engine(f'postgresql://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}')
-        df = df.rename(columns={'temperature_c': 'temperature_'})
         
         df.to_sql(name=table_name, con=engine, if_exists='append', index=False)
         print("Success: Data successfully loaded into PostgreSQL!")

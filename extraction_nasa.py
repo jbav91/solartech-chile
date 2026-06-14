@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import numpy as np
 
 def extract_nasa(lat, lon, start_date, end_date):
     """
@@ -24,7 +25,7 @@ def extract_nasa(lat, lon, start_date, end_date):
         df_final = df_final[['date', 'latitude', 'longitude', 'ghi_kwh_m2', 'temperature_c']]
         
         # Data Cleaning
-        df_final = df_final.replace(-999.0, pd.NA)
+        df_final = df_final.replace(-999.0, np.nan)
         df_final['date'] = pd.to_datetime(df_final['date'], format='%Y%m%d')
         
         print(f"Successfully extracted {len(df_final)} records.")
