@@ -32,3 +32,13 @@ def extract_nasa(lat, lon, start_date, end_date):
     else:
         print(f"Connection error. Status code: {response.status_code}")
         return None
+    
+
+# --- DIRECT CALL ---
+if __name__ == '__main__':
+    df_resultado = extract_nasa(-23.8634, -69.1328, "20160101", "20251231")
+    
+    # Sucessful extraction, first rows will be showed
+    if df_resultado is not None:
+        print("\nVista previa de los datos extraídos:")
+        print(df_resultado.head())
