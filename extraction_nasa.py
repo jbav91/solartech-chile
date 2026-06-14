@@ -1,4 +1,3 @@
-# Archivo: extract.py
 import requests
 import pandas as pd
 
