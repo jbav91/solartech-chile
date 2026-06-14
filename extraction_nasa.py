@@ -40,5 +40,5 @@ if __name__ == '__main__':
     
     # Sucessful extraction, first rows will be showed
     if df_resultado is not None:
-        print("\nVista previa de los datos extraídos:")
+        print("\nPreview of extracted data:")
         print(df_resultado.head())
