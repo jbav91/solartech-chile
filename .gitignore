@@ -1,3 +1,6 @@
 .venv/
 __pycache__/
 .env
+
+record_etl.txt
+solartech-chile-credentials.json
