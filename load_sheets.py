@@ -6,7 +6,7 @@ def load_to_google_sheets(df, spreadsheet_name):
     """
     Connects with Google sheets using Service Account and adds Dataframe data.
     """
-    print(f"Connectins to Google Sheets for updating '{spreadsheet_name}'...")
+    print(f"Connecting to Google Sheets for updating '{spreadsheet_name}'...")
     
     # Security Scopes for Google Drive and Google Sheets
     scopes = [
