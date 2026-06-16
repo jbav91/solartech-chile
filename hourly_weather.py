@@ -1,5 +1,6 @@
 from extract_weather import extract_current_weather
 from load import load_to_postgres
+from load_sheets import load_to_google_sheets
 import datetime
 
 if __name__ == "__main__":
@@ -12,4 +13,7 @@ if __name__ == "__main__":
     df_current = extract_current_weather(lat, lon)
     
     if df_current is not None:
+
         load_to_postgres(df_current, "current_weather")
+        
+        load_to_google_sheets(df_current, "SolarTech_Data")
