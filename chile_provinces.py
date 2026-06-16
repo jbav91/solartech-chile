@@ -1,6 +1,4 @@
-# Archivo: chile_provinces.py
-
-PROVINCIAS_CHILE = [
+CHILE_PROVINCES = [
     # 1. Región de Arica y Parinacota
     {"region": "Arica y Parinacota", "provincia": "Arica", "lat": -18.4783, "lon": -70.3126},
     {"region": "Arica y Parinacota", "provincia": "Parinacota", "lat": -18.1964, "lon": -69.5592},
