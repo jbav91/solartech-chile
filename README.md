@@ -55,11 +55,8 @@ This project demonstrates a full-stack data workflow: from API data extraction a
 
 ## 📊 Live Dashboard
 Experience the interactive calculator here:  
-**[View Dashboard on Tableau Public](public.tableau.com/app/profile/tu-usuario/ruta-del-proyecto)**
+**[View Dashboard on Tableau Public](https://public.tableau.com/app/profile/jorge.acu.a.vallejos/viz/SolarTechChile/Dashboard1?publish=yes)**
 
 ## 📬 Contact
-**[Tu Nombre]**  
+**Jorge Acuña Vallejos**  
 *Data Analyst / Data Engineer*  
-* LinkedIn: linkedin.com/in/tu-usuario
-* Email: tu.email@ejemplo.com
-* Portfolio: [Enlace a tu sitio web o portafolio si tienes]
