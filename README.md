@@ -41,3 +41,25 @@ This project demonstrates a full-stack data workflow: from API data extraction a
 ├── sql/                    # SQL scripts for PostgreSQL table creation and data loading
 ├── tableau/                # Tableau workbook file (.twb / .twbx)
 └── README.md               # Project documentation
+```
+
+## 🚀 How to Run the Project
+
+1. **Database Setup:** 
+   * Install PostgreSQL and execute the `schema.sql` file located in the `/sql` folder to build the relational tables.
+2. **Data Pipeline:** 
+   * Run `nasa_api_extraction.py` in the `/scripts` folder to fetch the latest meteorological data.
+   * Run `load_to_postgres.py` to populate the database.
+3. **Visualization:** 
+   * Open the Tableau workbook and ensure the data source connection is pointing to your local PostgreSQL instance, or explore the live version via the link below.
+
+## 📊 Live Dashboard
+Experience the interactive calculator here:  
+**[View Dashboard on Tableau Public](public.tableau.com/app/profile/tu-usuario/ruta-del-proyecto)**
+
+## 📬 Contact
+**[Tu Nombre]**  
+*Data Analyst / Data Engineer*  
+* LinkedIn: linkedin.com/in/tu-usuario
+* Email: tu.email@ejemplo.com
+* Portfolio: [Enlace a tu sitio web o portafolio si tienes]
