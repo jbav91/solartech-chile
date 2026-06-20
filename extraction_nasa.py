@@ -16,6 +16,8 @@ def extract_nasa(lat, lon, start_date, end_date):
         dict_ghi = data['properties']['parameter']['ALLSKY_SFC_SW_DWN']
         dict_temp = data['properties']['parameter']['T2M']
         
+        #asdasd
+
         df_ghi = pd.DataFrame(list(dict_ghi.items()), columns=['date', 'ghi_kwh_m2'])
         df_temp = pd.DataFrame(list(dict_temp.items()), columns=['date', 'temperature_c'])
         
